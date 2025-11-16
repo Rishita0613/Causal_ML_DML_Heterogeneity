@@ -22,6 +22,10 @@ Orthogonalisation: The process uses cross-fitting and residualization to isolate
 CATE Estimation: The model predicts the unique causal effect ($\tau$) for every customer based on their characteristics.
 
 Key Results and Policy Insight
+Estimated ATE: 0.0000
+95% CI:        (0.6747, 1.2446)
+P-value:       0.0000
+----------------------------
 
 The analysis reveals a classic case of Masked Heterogeneity:
 
