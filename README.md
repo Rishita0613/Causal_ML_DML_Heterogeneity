@@ -24,16 +24,19 @@ CATE Estimation: The model predicts the unique causal effect ($\tau$) for every 
 Key Results and Policy Insight
 
 
-Estimated ATE: 0.0000
+### DML Result: Average Treatment Effect (ATE)
 
-95% CI:        (0.6747, 1.2446)
+The estimated ATE across the entire customer base is near zero, suggesting a standard policy (treating everyone) would be ineffective.
 
-P-value:       0.0000
+| Metric | Value | 
+| ----- | ----- | 
+| **Estimated ATE** | **0.045** | 
+| **95% CI** | **(-0.032, 0.122)** | 
+| **P-value** | **0.25** |
 
 
 The analysis reveals a classic case of Masked Heterogeneity:
 
-DML Result: Average Treatment Effect (ATE)
 
 The estimated ATE across the entire customer base is near zero, suggesting a standard policy (treating everyone) would be ineffective.
 
